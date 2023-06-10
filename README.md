@@ -72,19 +72,25 @@ Customer Profitability = (0.2 * AVERAGE([Normalized past_3_years]))
 ```
 ### Analysis
 1. The top 1000 customers with the highest potential profitability provided more insights into the customers demographics.
+
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/19a1ae41-2d98-4e4c-913e-8d60a2f53b66)
+
 There seem to be no correlation at all between car ownership and Bicycle sales and Bicycles are bought more by middle aged people. This could be because Parents who already will often buy the bicycles for their kids.
+
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/17191e9b-159a-42a9-868b-c9df999245e8)
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/0a8a4a44-0c25-482d-8a33-40362466108c)
+
 2. The most popular customer base by wealth segment is the masses with about 50.86 total sales and profitability coming from that demography.
+
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/693e63d1-3d8a-4999-b867-3b261f7d6003)
 
 4. New south Wales has a significantly higher proftability than other States, because the customer base from New South Wales seem to be higher than the other states.
+
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/09d05a48-191e-47ee-805f-70dc8ee23d4f)
 ![image](https://github.com/bellatrick/KPMG-analytics/assets/74540938/89147eb2-06d1-4dd3-a7b9-8535dd12223c)
 
 The full report can be found here with more insights and recommendations.
-[Sprocket bi MAIN PDF.pdf](https://github.com/bellatrick/KPMG-analytics/files/11713256/Sprocket.bi.MAIN.PDF.pdf)
+[Sprocket.pdf](https://github.com/bellatrick/KPMG-analytics/files/11713256/Sprocket.bi.MAIN.PDF.pdf)
 
 
 
