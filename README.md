@@ -59,4 +59,14 @@ Owns Car: This column suggests the customer's transportation situation, which ca
 To estimate the customer's profitability value, the following calculation will be used:
 Customer Profitability Value = (Weight1 * NormalizedValue1) + (Weight2 * NormalizedValue2) + (Weight3 * NormalizedValue3) + (Weight4 * NormalizedValue4)
 
+After Normalizing the columns: The DAX formula below is used to calculate the profitability value for all the customers:
+
+```dax
+Customer Profitability = (0.4 * AVERAGE([Normalized past_3_years])) 
++ (0.2 * AVERAGE(CustomerAddress[Normalized valuation]))
++ (0.3 * AVERAGE(CustomerDemographic[Normalized Wealth Segment]) 
++ (0.1 * AVERAGE(CustomerDemographic[Normalize owns car]))
+)
+```
+
 
